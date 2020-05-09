@@ -1,5 +1,5 @@
 # What's it?
-This is a virtual machine with NGINX and PHP-FPM 7. It based on Alpine Linux and works via Vagrant.
+This is a virtual machine with NGINX and PHP-FPM 7. It is based on Alpine Linux and works via Vagrant.
 
 # What's inside?
 * NGINX
@@ -24,7 +24,7 @@ http://second_site.local
 
 # How to add new sites?
 * Create a new configuration file in ```sites-conf``` folder, like ```003-my_awesome_site.conf```;
-* Open it in any text editor and confiturate it (see Nginx docs);
+* Open it in any text editor and configurate it (see Nginx docs);
 * Execute ```vagrant ssh``` in your host machine's console;
 * Execute ```sudo nginx -s reload``` in VM's console;
 * Check a new site in your browser. 
