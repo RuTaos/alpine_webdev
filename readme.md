@@ -1,5 +1,5 @@
 # What's it?
-This is a virtual machine with NGINX and PHP-FPM 7. It based on Alpine Linux and works via Vagrant.
+This is a virtual machine with NGINX and PHP-FPM 7. It is based on Alpine Linux and works via Vagrant.
 
 # What's inside?
 * NGINX
