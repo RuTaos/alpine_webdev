@@ -1,10 +1,11 @@
 # What's it?
-This is a virtual machine with NGINX and PHP-FPM 7. It is based on Alpine Linux and works via Vagrant.
+This is a virtual machine with NGINX, PHP-FPM 7 and MariaDB (MySQL). It is based on Alpine Linux and works via Vagrant.
 
 # What's inside?
 * NGINX
 * PHP-FPM 7
 * Composer
+* MariaDB
 
 # How to install?
 * Clone this repo and execute ```vagrant up```;
@@ -20,6 +21,7 @@ http://webdebbox.local
 http://first_site.local
 http://second_site.local
 ```
+* MySQL allowed by ip 192.168.0.135, username: root, password: root;
 * Enjoy!
 
 # How to add new sites?
